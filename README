@@ -1,0 +1,15 @@
+Student: Hodoboc-Velescu Tudor
+
+Varianta: Q2
+
+Cerinta 1:
+Am implementat algoritmul cum e specificat in cerinta. Singura schimbare fata de
+pseudocod este ca fac o verificare, atunci cand procesul comunica la dreapta,
+verific sa nu fie ultimul, caz in care nu poate trimite, iar cand comunica la
+stanga, verific sa nu fie procesul 0 deoarece este singurul care nu are vecin in
+stanga, caz in care nu poate trimite.
+
+Cerinta 2:
+Fiecare proces asteapta numerele de la stanga sa, si apoi le trimite la dreapta.
+La final, se trimite si numarul procesului curent. Ultimul proces doar asteapta
+numere si le afiseaza.
